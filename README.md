@@ -129,7 +129,7 @@ Do the timing diagram
 
 
 ### PROGRAM 
-```
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: SHALINI V
 RegisterNumber: 212222240096
