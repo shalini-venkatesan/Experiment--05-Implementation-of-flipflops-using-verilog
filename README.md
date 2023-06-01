@@ -199,13 +199,14 @@ endmodule
 
 ## SR FLIP FLOP:
 
-![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/85ad1ec8-c9d6-4a08-b8de-9a2df468ef23)
+![Uploading image.png…]()
 
 ## D FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/361b80e3-1091-498a-86bf-7e97a838c78d)
 
 
 ## JK FLIPFLOP:
+![Uploading image.png…]()
 
 
 ## T FLIPFLOP:
@@ -222,6 +223,7 @@ endmodule
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/01a5b2a4-81de-4f8f-be77-048c901363bd)
 
 ## D FLIPFLOP:
+![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/907b2a5f-a450-4a4e-b551-8cace0b0ab93)
 
 
 ## JK FLIPFLOP:
