@@ -135,7 +135,7 @@ Developed by: SHALINI V
 RegisterNumber: 212222240096
 
 SR FLIPFLOP:
-```
+
 module SR(S,R,clk,Q,Qbar);
 input S,R,clk;
 output Q,Qbar;
@@ -145,9 +145,9 @@ nand (Y,R,clk);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-```
+
 D FLIPFLOP:
-```
+
 module EX(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -160,9 +160,9 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule
-```
+
 JK FLIPFLOP:
-```
+
 module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
 output Q,Qbar;
@@ -172,9 +172,9 @@ nand (Y,K,clk,Q);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-```
+
 T FLIPFLOP:
-```
+
 module EX(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -188,7 +188,6 @@ Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule 
 
-```
 ````
 ### RTL LOGIC FOR FLIPFLOPS 
 
