@@ -190,31 +190,22 @@ endmodule
 
 ```
 
-
-
-
-
-
 ### RTL LOGIC FOR FLIPFLOPS 
 
 ## SR FLIP FLOP:
+![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/ec7b3768-b7c3-447e-85ef-f4ff15248cda)
 
-![Uploading image.png…]()
 
 ## D FLIPFLOP:
-![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/361b80e3-1091-498a-86bf-7e97a838c78d)
+![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/2bf362a6-675c-4637-afe1-0822017d7043)
 
 
 ## JK FLIPFLOP:
-![Uploading image.png…]()
+![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/c781f200-f33f-45b7-83d7-e49b7d36b1ab)
 
 
 ## T FLIPFLOP:
-![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/b2f53b95-86f6-439f-ba1e-b7643876f4fa)
-
-
-
-
+![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/e9d19006-e875-49b3-a518-d6f305e6cd56)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
@@ -234,9 +225,5 @@ endmodule
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/b33e8ee0-1c1f-4d4d-afcf-d8e32e5fef12)
 
 
-
-
-
-
-
 ### RESULTS 
+Thus implementation of flipflops using verilog is verified
