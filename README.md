@@ -129,25 +129,28 @@ Do the timing diagram
 
 
 ### PROGRAM 
-````
+~~~
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: SHALINI V
 RegisterNumber: 212222240096
-
-SR FLIPFLOP:
-
-module SR(S,R,clk,Q,Qbar);
+~~~
+### SR FLIPFLOP:
+```
+module flipflop(S,R,clk,Q,Qbar);
 input S,R,clk;
-output Q,Qbar;
-wire X,Y;
-nand (X,S,clk);
-nand (Y,R,clk);
-nand (Q,X,Qbar);
-nand (Qbar,Y,Q);
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=S|((~R)&Q);
+Qbar=R|((~S)&(Qbar));
+end
 endmodule
-
-D FLIPFLOP:
-
+```
+### D FLIPFLOP:
+```
 module EX(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -160,9 +163,9 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule
-
-JK FLIPFLOP:
-
+```
+### JK FLIPFLOP:
+```
 module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
 output Q,Qbar;
@@ -172,9 +175,9 @@ nand (Y,K,clk,Q);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-
-T FLIPFLOP:
-
+```
+### T FLIPFLOP:
+```
 module EX(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -187,8 +190,7 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule 
-
-````
+```### 
 ### RTL LOGIC FOR FLIPFLOPS 
 
 ## SR FLIP FLOP:
