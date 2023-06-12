@@ -190,7 +190,7 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule 
-```### 
+```
 ### RTL LOGIC FOR FLIPFLOPS 
 
 ## SR FLIP FLOP:
