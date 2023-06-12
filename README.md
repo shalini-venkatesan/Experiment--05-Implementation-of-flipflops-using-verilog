@@ -134,7 +134,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: SHALINI V
 RegisterNumber: 212222240096
 ~~~
-### SR FLIPFLOP:
+#### SR FLIPFLOP:
 ```
 module flipflop(S,R,clk,Q,Qbar);
 input S,R,clk;
@@ -149,7 +149,7 @@ Qbar=R|((~S)&(Qbar));
 end
 endmodule
 ```
-### D FLIPFLOP:
+#### D FLIPFLOP:
 ```
 module EX(T,clk,Q,Qbar);
 input T,clk;
@@ -164,7 +164,7 @@ Qbar=((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule
 ```
-### JK FLIPFLOP:
+#### JK FLIPFLOP:
 ```
 module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
@@ -176,7 +176,7 @@ nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
 ```
-### T FLIPFLOP:
+#### T FLIPFLOP:
 ```
 module EX(T,clk,Q,Qbar);
 input T,clk;
@@ -193,36 +193,36 @@ endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
 
-## SR FLIP FLOP:
+#### SR FLIP FLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/ec7b3768-b7c3-447e-85ef-f4ff15248cda)
 
 
-## D FLIPFLOP:
+#### D FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/2bf362a6-675c-4637-afe1-0822017d7043)
 
 
-## JK FLIPFLOP:
+#### JK FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/c781f200-f33f-45b7-83d7-e49b7d36b1ab)
 
 
-## T FLIPFLOP:
+#### T FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/e9d19006-e875-49b3-a518-d6f305e6cd56)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
-## SR FLIP FLOP:
+#### SR FLIP FLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/4e63d420-0b91-4ca1-ae4e-fa0dedf304e6)
 
-## D FLIPFLOP:
+#### D FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/907b2a5f-a450-4a4e-b551-8cace0b0ab93)
 
 
-## JK FLIPFLOP:
+#### JK FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/95313e16-e447-4a9f-ae12-c34f84be7f06)
 
 
-## T FLIPFLOP:
+#### T FLIPFLOP:
 ![image](https://github.com/shalini-venkatesan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118720291/b33e8ee0-1c1f-4d4d-afcf-d8e32e5fef12)
 
 
